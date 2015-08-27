@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ca.uwaterloo.lab1_202_08.MainActivity" >
+
+    <item
+        android:id="@+id/resetRecord"
+        android:orderInCategory="100"
+        android:title="Reset Record Values"
+        app:showAsAction="never"/>
+    <item 
+        android:id="@+id/resetSteps" 
+        android:orderInCategory="99" 
+        android:title="Reset Step Value"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/resetDisplacement"
+        android:orderInCategory="98"
+        android:title="Reset Current Displacement"
+        app:showAsAction="never"/>
+
+</menu>
